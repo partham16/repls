@@ -31,8 +31,8 @@ class Animal(ABC):
         pass
 
 class Shape(metaclass=ABCMeta):
-    def __init__(self, id):
-        self._id = id
+    def __init__(self, _id):
+        self._id = _id
 
     @abstractmethod
     def display(self): 
